@@ -37,8 +37,6 @@ private:
 
     double Lennard_Jones_force(double distance) const;
 
-    double adapted_dt(double min_dt);
-
     double isokinetic_scaling() const;
 
     double temperature() const;
