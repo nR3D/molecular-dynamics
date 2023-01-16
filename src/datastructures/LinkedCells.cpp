@@ -53,7 +53,7 @@ void LinkedCells::distribute(std::vector<Particle>& particles, Vec3s num_cells, 
         }
 
         // Particles associated to the same cell will have the same color
-        Vec3d color(static_cast<double>(i));
+        Vec3d color(static_cast<double>(head_index));
         particle.setColor(color);
     }
 }
